@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(107, 103, 103);
+    width: 100%;
+    height: 120px;
+    position: fixed;
+}
+.logo_container{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 40px;
+    flex-direction: row;
+}
+
+.links_container a{
+    padding-top: 65px;
+}
+
+.logo h1{
+    padding-top: 10px;
+}
+
+.main{
+    background-color: aliceblue;
+}
+.section_one{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teclados{
+
+}
+.tlc{
+   background-color: aliceblue;
+   text-align: center;
+}
+.imagens_teclado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+}
+
+.mouses{
+
+}
+.mss{
+    text-align: center;
+}
+.sobre{
+    background-color: rgb(44, 44, 44);
+    height: 170px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.texto_sobre{
+   display: flex;
+   justify-content: left;
+   align-items: left;
+    padding-top: 40px;
+
+}  
